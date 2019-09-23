@@ -1,0 +1,29 @@
+h1 {
+border-style: solid;
+border-color: gray;
+color: violet;
+font-size:45px;
+font-weight:normal;
+text-align:center;
+}
+
+h2 {
+    color:gray;
+    font-size: 35px;
+    font-weight: normal;
+    text-align:left;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color:black;
+}
+
+h3 {
+    color:slateblue;
+    font-size: 30px;
+    font-weight:normal;
+    text-align: left
+}
