@@ -1,0 +1,46 @@
+url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+}
+
+div.header {
+    padding: 10px;
+}
+
+div.header p {
+    margin: 0;
+}
+
+div.header h1 {
+    margin: 8px 0;
+}
