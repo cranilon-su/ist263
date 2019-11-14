@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="mainpage2.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
+    <a href="australia.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Australia</a>
+    <a href="newzealand.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">New Zealand</a>
+    <a href="asia.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Asia</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PHOTOGRAPHY</b></h1>
+  <p><b>Photos from my trip, taken by me!</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="images/IMG_2648.jpeg" style="width:100%">
+    <img src="images/IMG_0682.jpeg" style="width:100%">
+    <img src="images/IMG_6129.jpeg" style="width:100%">
+    <img src="images/IMG_0990.jpeg" style="width:100%">
+    <img src="images/IMG_6067.jpeg" style="width:100%">
+    <img src="images/IMG_9680.jpeg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/10796054160_IMG_0091.jpg" style="width:100%">
+    <img src="images/IMG_9483.jpeg" style="width:100%">
+    <img src="images/10747259584_IMG_9593.jpg" style="width:100%">
+    <img src="images/IMG_8385.jpeg" style="width:100%">
+    <img src="images/CFFF267A-EBBC-4432-969C-209FCB766280 copy.jpeg" style="width:100%">
+    <img src="images/IMG_8750.jpeg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/8B8C4F40-8C58-4B2B-947D-60AF3EE2A36B.jpeg" style="width:100%">
+    <img src="images/10783897232_IMG_9439.jpg" style="width:100%">
+    <img src="images/IMG_7542.jpeg" style="width:100%">
+    <img src="images/AB16C55B-9AC2-4E2B-B379-598FA6BDFB46.jpg" style="width:100%">
+    <img src="images/IMG_3163.jpeg" style="width:100%">
+    <img src="images/IMG_3519.jpeg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+        <img src="images/C12B8311-0BE4-475B-8346-430308963F32.jpeg" style="width:100%">
+        <img src="images/D3E3E478-9B13-41CB-8E47-4AEEBA210ABD.jpeg" style="width:100%">
+        <img src="images/0A8CCC7D-FF26-4CC9-8B00-E5F96A2CE765.jpeg" style="width:100%">
+        <img src="images/10761260320_IMG_8247.jpg" style="width:100%">
+        <img src="images/21A4B1EC-7291-4BEB-AE26-913818F307CA.jpeg" style="width:100%">
+        <img src="images/IMG_0167.jpeg" style="width:100%">
+      </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
