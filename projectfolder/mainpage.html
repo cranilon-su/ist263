@@ -1,99 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style3.css">
-<style>
-    body {
-          background-image: "images/21A4B1EC-7291-4BEB-AE26-913818F307CA.jpeg";
-          background-repeat: no-repeat;
-          background-attachment: fixed;  
-          background-size: cover;
-        }
-</style>
-</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-        <div class="header">
-          <h1>My Travel Blog</h1>
-        </div>
-        
-        <div class="topnav">
-          <a class="active" href="mainpage2.html">Home</a>
-          <a href="australia2.html">Australia</a>
-          <a href="newzealand.html">New Zealand</a>
-          <a href="asia.html">Asia</a>
-        </div>
-        
-        <div class="row">
-          <div class="leftcolumn">
-            <div class="card">
-              <h2>My Bucket List Experience</h2>
-              <h5>My timeline: Jan 22, 2019- May 25, 2019</h5>
-              <img src="images/10761260320_IMG_8247.jpg" alt="Bondi Pools" width="275" height="300">
-              <p>When I first decided to study abroad, I thought to myself, where should I go? What would I like to see the most in the world. Immediately my mind landed on Australia and the surrounding locations. My blog shares my experience in Australia and my travels! </p>
-            </div>
-            <div class="card">
-              <h2>More about my time abroad</h2>
-              <img src="images/380B363E-522B-4DDC-AA11-ABC13588A64E.jpeg" alt="Thailand" width="275" height="300">
-        
-              <p>I decided to study at the University of New South Wales due to location and reputation. The University was a short 15 min bus ride to many popular destinations. Hop on a bus and you are in downtown Sydney, enjoying the city. Hop on a different bus and you are enjoying the sunny day at the world famous Bondi Beach. This location was ideal for having a balanaced city and beach life. </p>
-              <p>The weather was a huge reason for my decision to study in Australia. After choosing Syracuse University, I was surprised about the constant cold and snowy weather from the months of November to April. Since I always experience the cold during the spring semester I sought out the warm and sunny weather. When arriving in Australia it was the last month of their summer and the beginning of their autumn. From the months of January to May, I experienced weather ranging from 60-90s. I absolutely loved this change of pace. </p>
-              <p>At the University of New South Wales, they work in trimesters. For us exchange students, this meant we took a summer class and 3 classes during their fall semester. For the January class (their summer class), I took Prensentational Speaking course. It was a short 5 day class but taught me more than I could have imagined. I wrote and practiced several speeches that I performed in front of hundreds of students. This experience really helped me to come out of my shell and enjoy public speaking. During the fall semester, I took Media and Culture in the Everyday Life, Reimagining the Social, and Creating Social Change. Creating Social Change was an online course with several small group projects. Media and Culture in the Everyday Life was very interesting and important for my major. I loved the material and topics covered. In addition, attedance was mandatory and the work load was reasonable. Reimagining the Social was an interesting socoiology course with creative assignments. </p>
-            </div>
-          </div>
-          <div class="rightcolumn">
-            <div class="card">
-              <h2>About Chelsea</h2>
-              <img src="images/IMG_6424.JPG" alt="About Me" width="275" height="300">
-              <p class="double"> My name is Chelsea Anilonis and I am 21 years old. I am from Central New Jersey and grew up with an older sister and a younger sister. I have a four year old goldendoodle name Charlie. 
-                  I am a senior at Syracuse University pursuing a Communications major and Information Management and Technology minor. I plan to apply and attend law school next fall. This blog is my experience from studying abroad my second semester of school during my Junior year!</p>
-            </div>
-            <div class="card">
-              <h3>Explore by Destination</h3>
-              <a href="default.asp">
-          <img src="images/0A8CCC7D-FF26-4CC9-8B00-E5F96A2CE765.jpeg" alt="australia.html" width="150" height="175">
-        </a>
-              <a href="default.asp">
-          <img src="images/IMG_1493.jpeg" alt="newzealand.html" width="150" height="175">
-        </a>
-            <a href="default.asp">
-          <img src="images/IMG_7451.jpeg" alt="asia.html" width="150" height="175">
-        </a>
-            <!-- RSVP section -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-        <h1>HOPE YOU VISIT!</h1>
-        <p class="w3-xlarge">
-          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Subscribe</button>
-        </p>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button">My <b>Travel</b> Blog</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="australia2.html" class="w3-bar-item w3-button">Australia</a>
+      <a href="newzealand.html" class="w3-bar-item w3-button">New Zealand</a>
+      <a href="asia.html" class="w3-bar-item w3-button">Asia</a>
+      <a href="photos.html" class="w3-bar-item w3-button">Photography</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="images/21A4B1EC-7291-4BEB-AE26-913818F307CA.jpeg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Travel</b></span> <span class="w3-hide-small w3-text-light-grey"><b>Blog</b></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Places</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Australia</div>
+        <img src="images/IMG_0688.jpeg" alt="Australia" style="width:100%">
       </div>
-      
-      <!-- RSVP modal -->
-      <div id="id01" class="w3-modal">
-        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-          <div class="w3-container w3-white w3-center">
-            <h1 class="w3-wide">Subscribe to my blog</h1>
-            <p>Instagram: chelsea_anilonis</p>
-            <form>
-              <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
-            </form>
-            <div class="w3-row">
-              <div class="w3-half">
-                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Subscribe</button>
-              </div>
-              <div class="w3-half">
-                <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Instagram</button>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Asia</div>
+        <img src="images/10760976016_IMG_9884.jpg" alt="Thailand" style="width:100%">
+    </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">New Zealand</div>
+        <img src="images/IMG_1539.jpeg" alt="House" style="width:100%">
       </div>
-        <div class="footer">
-          <h4>@ 2019 Chelsea Anilonis | All Rights Reserved</h4>
-        </div>
-        
-        </body>
-        </html>
+    </div>
+  </div>
+
+ <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">My Bucket List Experience</h3>
+    <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16">My timeline: Jan 22, 2019- May 25, 2019</h4>
+    <p>When I first decided to study abroad, I thought to myself, where should I go? What would I like to see the most in the world. Immediately my mind landed on Australia and the surrounding locations. My blog shares my experience in Australia and my travels! </p><br>
+    <p>I decided to study at the University of New South Wales due to location and reputation. The University was a short 15 min bus ride to many popular destinations. Hop on a bus and you are in downtown Sydney, enjoying the city. Hop on a different bus and you are enjoying the sunny day at the world famous Bondi Beach. This location was ideal for having a balanaced city and beach life. </p><br>
+              <p>The weather was a huge reason for my decision to study in Australia. After choosing Syracuse University, I was surprised about the constant cold and snowy weather from the months of November to April. Since I always experience the cold during the spring semester I sought out the warm and sunny weather. When arriving in Australia it was the last month of their summer and the beginning of their autumn. From the months of January to May, I experienced weather ranging from 60-90s. I absolutely loved this change of pace. </p><br>
+              <p>At the University of New South Wales, they work in trimesters. For us exchange students, this meant we took a summer class and 3 classes during their fall semester. For the January class (their summer class), I took Prensentational Speaking course. It was a short 5 day class but taught me more than I could have imagined. I wrote and practiced several speeches that I performed in front of hundreds of students. This experience really helped me to come out of my shell and enjoy public speaking. During the fall semester, I took Media and Culture in the Everyday Life, Reimagining the Social, and Creating Social Change. Creating Social Change was an online course with several small group projects. Media and Culture in the Everyday Life was very interesting and important for my major. I loved the material and topics covered. In addition, attedance was mandatory and the work load was reasonable. Reimagining the Social was an interesting socoiology course with creative assignments. </p><br>       
+  </div>
+  
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Chelsea</h3>
+    <p>My name is Chelsea Anilonis and I am 21 years old. I am from Central New Jersey and grew up with an older sister and a younger sister. I have a four year old goldendoodle name Charlie. 
+                  I am a senior at Syracuse University pursuing a Communications major and Information Management and Technology minor. I plan to apply and attend law school next fall. This blog is my experience from studying abroad my second semester of school during my Junior year!</p>       
+  </div>
+
+ 
+  
+<div class="w3-container">
+  <img src="images/7291948748618265060_IMG_0957.jpg" class="w3-image" style="width:100%">
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>@ 2019 Chelsea Anilonis | All Rights Reserved</a></p>
+</footer>
+
+</body>
+</html>
