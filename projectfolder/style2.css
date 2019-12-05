@@ -11,14 +11,14 @@
     
   }
   
-  /* Header/Blog Title */
+
   .header {
     padding: 25px;
     text-align: center;
     background: white;
     color: #7E7E7E;
     letter-spacing: 8px;
-    font-sze: 25px;
+    font-size: 25px;
     font-family: 'Dancing Script', cursive;
   }
   
@@ -27,14 +27,14 @@
     text-decoration: underline overline;
   }
   
-  /* Style the top navigation bar */
+
   .topnav {
     overflow: hidden;
     background-color: #E6DDCD;
   }
   
-  /* Style the topnav links */
-  .topnav a {
+
+.h3 {
     float: left;
     display: block;
     color: #7E7E7E;
@@ -43,53 +43,13 @@
     text-decoration: none;
   }
   
-  /* Change color on hover */
-  .topnav a:hover {
+  
+  .h4 {
     background-color: #FDFCFB;
     color: black;
   }
-  p.double {
-   outline-color:#7E7E7E;
-   outline-style: double;
-   }
-   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {   
-    float: left;
-    width: 75%;
-  }
   
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-  }
   
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Footer */
   .footer {
     padding: 20px;
     text-align: center;
@@ -97,7 +57,7 @@
     margin-top: 20px;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  
   @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
@@ -105,7 +65,6 @@
     }
   }
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
