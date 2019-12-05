@@ -3,7 +3,10 @@
 <title>Asia</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style2.css">
+
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
@@ -16,13 +19,13 @@ h1 {
 </style>
 <body>
 
-<!-- Navbar (sit on top) -->
+
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">Asia</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="mainpage.html" class="w3-bar-item w3-button">Home</a>
+
+    <div class="w3-right">
+      <a href="mainpage2.html" class="w3-bar-item w3-button">Home</a>
       <a href="australia2.html" class="w3-bar-item w3-button">Australia</a>
       <a href="newzealand.html" class="w3-bar-item w3-button">New Zealand</a>
       <a href="photos.html" class="w3-bar-item w3-button">Photography</a>
@@ -30,7 +33,6 @@ h1 {
   </div>
 </div>
 
-<!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="images/IMG_8753.jpeg" alt="Elephants" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large">
@@ -38,11 +40,11 @@ h1 {
   </div>
 </header>
 
-<!-- Page content -->
+
 <div class="w3-content" style="max-width:1100px">
 
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
+
+  <section class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
      <img src="images/10803217248_IMG_8781.jpg" class="w3-round w3-image" alt="Monkeys" width="600" height="750">
     </div>
@@ -52,15 +54,14 @@ h1 {
       <h5 class="w3-center">January 31-February 8</h5>
       <p class="w3-large">With advice from a local travel agent, we decided to stay in Seminyak, Bali for 7 nights, 8 days. While here we went to several locations within the area. Several days were spent at the various pool club locations including Miss Sippy and Mr. Potato Head. Another day included trips to several waterfalls including Air Terjun Waterfall, Tibumana Waterfall and the Tegenungan Waterfall. 
             In addition, we toured the Rice Terraces and the Monkey Sanutuary in Ubud. One of the last days included an all day tour to Nusa Penida, an island off of Bali. We enjoyed our trip to Bali and would go back! However, we would have stayed in Northern Bali and for a shorter amount of time!
-
         </p>
      
     </div>
-  </div>
+  </section>
   
   <hr>
   
-  <!-- Menu Section -->
+
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
       <h1 class="w3-center">Singapore</h1><br>
@@ -75,7 +76,7 @@ h1 {
       <img src="images/10747296048_IMG_9585.jpg" class="w3-round w3-image" alt="Singapore" style="width:100%">
     </div>
   </div>
-<!-- About Section -->
+
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
      <img src="images/IMG_9100.jpeg" class="w3-round w3-image" alt="Phuket" width="600" height="750">
@@ -103,15 +104,15 @@ h1 {
   
   <hr>
 
- <!-- RSVP section -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+
+<section class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
   <h1>HOPE YOU VISIT!</h1>
   <p class="w3-xlarge">
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-black w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Subscribe</button>
   </p>
-</div>
+</section>
 
-<!-- RSVP modal -->
+
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
     <div class="w3-container w3-white w3-center">
@@ -132,11 +133,14 @@ h1 {
   </div>
 </div>
 
-<!-- Footer -->
+
 <footer class="w3-center w3-black w3-padding-16">
   <p>@ 2019 Chelsea Anilonis | All Rights Reserved <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
 </footer>
 <div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
