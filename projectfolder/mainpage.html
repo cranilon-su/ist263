@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
-<title>Page Title</title>
+<title>Home Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style2.css">
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+
+<section class="w3-top">
+  <article class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button">My <b>Travel</b> Blog</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-right">
       <a href="australia2.html" class="w3-bar-item w3-button">Australia</a>
       <a href="newzealand.html" class="w3-bar-item w3-button">New Zealand</a>
       <a href="asia.html" class="w3-bar-item w3-button">Asia</a>
       <a href="photos.html" class="w3-bar-item w3-button">Photography</a>
     </div>
-  </div>
-</div>
+  </article>
+</section>
 
-<!-- Header -->
+
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="images/21A4B1EC-7291-4BEB-AE26-913818F307CA.jpeg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
@@ -28,13 +29,13 @@
   </div>
 </header>
 
-<!-- Page content -->
+
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
+
+  <section class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Places</h3>
-  </div>
+  </section>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -47,7 +48,7 @@
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Asia</div>
         <img src="images/10760976016_IMG_9884.jpg" alt="Thailand" style="width:100%">
-    </div>
+      </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
@@ -57,20 +58,20 @@
     </div>
   </div>
 
- <div class="w3-container w3-padding-32" id="about">
+ <section class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">My Bucket List Experience</h3>
     <h4 class="w3-border-bottom w3-border-light-grey w3-padding-16">My timeline: Jan 22, 2019- May 25, 2019</h4>
     <p>When I first decided to study abroad, I thought to myself, where should I go? What would I like to see the most in the world. Immediately my mind landed on Australia and the surrounding locations. My blog shares my experience in Australia and my travels! </p><br>
     <p>I decided to study at the University of New South Wales due to location and reputation. The University was a short 15 min bus ride to many popular destinations. Hop on a bus and you are in downtown Sydney, enjoying the city. Hop on a different bus and you are enjoying the sunny day at the world famous Bondi Beach. This location was ideal for having a balanaced city and beach life. </p><br>
               <p>The weather was a huge reason for my decision to study in Australia. After choosing Syracuse University, I was surprised about the constant cold and snowy weather from the months of November to April. Since I always experience the cold during the spring semester I sought out the warm and sunny weather. When arriving in Australia it was the last month of their summer and the beginning of their autumn. From the months of January to May, I experienced weather ranging from 60-90s. I absolutely loved this change of pace. </p><br>
               <p>At the University of New South Wales, they work in trimesters. For us exchange students, this meant we took a summer class and 3 classes during their fall semester. For the January class (their summer class), I took Prensentational Speaking course. It was a short 5 day class but taught me more than I could have imagined. I wrote and practiced several speeches that I performed in front of hundreds of students. This experience really helped me to come out of my shell and enjoy public speaking. During the fall semester, I took Media and Culture in the Everyday Life, Reimagining the Social, and Creating Social Change. Creating Social Change was an online course with several small group projects. Media and Culture in the Everyday Life was very interesting and important for my major. I loved the material and topics covered. In addition, attedance was mandatory and the work load was reasonable. Reimagining the Social was an interesting socoiology course with creative assignments. </p><br>       
-  </div>
+ </section>
   
-  <div class="w3-container w3-padding-32" id="about">
+  <section class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Chelsea</h3>
     <p>My name is Chelsea Anilonis and I am 21 years old. I am from Central New Jersey and grew up with an older sister and a younger sister. I have a four year old goldendoodle name Charlie. 
                   I am a senior at Syracuse University pursuing a Communications major and Information Management and Technology minor. I plan to apply and attend law school next fall. This blog is my experience from studying abroad my second semester of school during my Junior year!</p>       
-  </div>
+    </section>
 
  
   
@@ -79,10 +80,13 @@
 </div>
 
 
-<!-- Footer -->
+
 <footer class="w3-center w3-black w3-padding-16">
   <p>@ 2019 Chelsea Anilonis | All Rights Reserved</a></p>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
